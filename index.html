@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos de los Estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Proyectos realizados por los chicos</h1>
+    </header>
+    
+    <div class="card2">
+        <div class="text-content">
+            <h2>¿Qué hacemos en <span class="highlight">WEB LAB</span>?</h2>
+            <p>En este taller exploramos herramientas de <strong>código abierto</strong> y de uso gratuito para <strong>crear</strong>, <strong>diseñar</strong> y <strong>programar</strong> páginas web con los lenguajes <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>.</p>
+            <p>Nuestro enfoque combina <strong>arte</strong>, <strong>diseño</strong> y <strong>programación</strong> para desarrollar <strong>experiencias digitales</strong>.</p>
+        </div>
+        <div class="circles">
+            <div class="circle pink"></div>
+            <div class="circle purple"></div>
+            <div class="circle blue"></div>
+        </div>
+    </div>
+
+
+    <main>
+        <div class="container">
+            <!-- Alhue -->
+            <div class="card">
+                <img src="gifs/alhue.gif" alt="Alhue" class="gif" onclick="togglePages('alhue-pages')">
+                <h2>Alhue</h2>
+                <ul id="alhue-pages" class="hidden">
+                    <li><a href="./Proyectos/alhue/leo_messi/index.html" target="_blank">Página de messi</a></li>
+                    <li><a href="./Proyectos/alhue/los_simpson/index.html" target="_blank">Página de bart</a></li>
+                </ul>
+            </div>
+
+            <!-- giuly -->
+            <div class="card">
+                <img src="gifs/giuly.gif" alt="giuly" class="gif" onclick="togglePages('giuly-pages')">
+                <h2>Giuly</h2>
+                <ul id="giuly-pages" class="hidden">
+                    <li><a href="./Proyectos/Giuli/codigo-giuly/Los Simpson/index.html" target="_blank">Página de Maggie</a></li>
+                    <li><a href="./Proyectos/Giuli/codigo-giuly/pagina-web-main/Giuli_ actual/index.html" target="_blank">Página sobre mí</a></li>
+                </ul>
+            </div>
+            
+
+            <!-- Agrega más niños aquí -->
+              <!-- Niño 2 -->
+            <div class="card">
+                <img src="gifs/nino2.gif" alt="Niño 2" class="gif" onclick="togglePages('nino2-pages')">
+                <h2>Niño 2</h2>
+                <ul id="nino2-pages" class="hidden">
+                    <li><a href="nino2/page1.html" target="_blank">Página 1</a></li>
+                    <li><a href="nino2/page2.html" target="_blank">Página 2</a></li>
+                    <li><a href="nino2/page3.html" target="_blank">Página 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
